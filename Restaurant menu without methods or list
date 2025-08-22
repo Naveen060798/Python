@@ -1,0 +1,15 @@
+item1 = input('Enter the name of Item1:\n')
+item2 = input('Enter the name of Item2:\n')
+item3 = input('Enter the name of Item3:\n')
+item4 = input('Enter the name of Item4:\n')
+
+price1 = input('Enter the price1: \n')
+price2 = input('Enter the price2: \n')
+price3 = input('Enter the price3: \n')
+price4 = input('Enter the price4: \n')
+
+
+print(item1 + ("-" * (25 - len(item1) - len(price1))) + price1)
+print(item2 + ("-" * (25 - len(item2) - len(price2))) + price2)
+print(item3 + ("-" * (25 - len(item3) - len(price3))) + price3)
+print(item4 + ("-" * (25 - len(item4) - len(price4))) + price4)
